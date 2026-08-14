@@ -1,0 +1,15 @@
+{
+  "name": "project-pulse-benchmark",
+  "version": "1.0.0",
+  "description": "Small project-management demo application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo No tests configured"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "sqlite3": "5.0.0"
+  }
+}
