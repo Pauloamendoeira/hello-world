@@ -1,17 +1,11 @@
-* {
-  margin:0px;
-  padding:0px;
-}
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; color: #152033; }
+.app { width: 980px; margin: 40px auto; }
+.topbar { display: flex; align-items: center; justify-content: space-between; }
+.card { background: white; padding: 24px; margin: 20px 0; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+input, textarea { display: block; width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ddd; }
+textarea { min-height: 80px; }
+button { background: #2457d6; color: white; border: 0; padding: 10px 16px; cursor: pointer; }
+.task { border-bottom: 1px solid #eee; padding: 12px 0; }
+.task:last-child { border-bottom: 0; }
+.status { font-size: 12px; color: #666; }
